@@ -48,6 +48,8 @@ jobs:
       - name: Create pull request
         run: |
           hub pull-request -m "chore: create PR for release" -b main -h qb-docker-${{ github.run_number }}
+        env:
+            GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Docker login
         uses: docker/login-action@v1
