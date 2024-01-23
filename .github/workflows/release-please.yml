@@ -44,10 +44,11 @@ jobs:
       - name: Create branch
         run: git checkout -b qb-docker-${{ github.run_number }}
 
-      # Create pull request
+      # Create pull request karthickmuppilirajan
       - name: Create pull request
         run: |
-          hub pull-request -m "chore: create PR for release" -b main -h qb-docker-${{ github.run_number }}
+          hub pull-request -m "chore: create PR for release" -b main -h  karthickmuppilirajan:qb-docker-${{ github.run_number }}
+          
         env:
             GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
