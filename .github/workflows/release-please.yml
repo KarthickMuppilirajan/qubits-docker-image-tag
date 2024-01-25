@@ -57,7 +57,7 @@ jobs:
       - id: release
         uses: google-github-actions/release-please-action@v4.0.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           release-type: node
           target-branch: main
       - name: Checkout code at release tag
