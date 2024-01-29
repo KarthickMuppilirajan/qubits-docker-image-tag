@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/KarthickMuppilirajan/qubits-docker-image-tag/compare/v1.0.0...v1.0.1) (2024-01-29)
+
+
+### Features
+
+* Added the yaml file ([e336c93](https://github.com/KarthickMuppilirajan/qubits-docker-image-tag/commit/e336c93741e3210119cb63aa80f1553073719b7a))
+
+
+### Bug Fixes
+
+* Added commit-msg files ([1c329ce](https://github.com/KarthickMuppilirajan/qubits-docker-image-tag/commit/1c329ce16522c34c51ed9f7db3f1c3315dfc0adb))
+
 ## 1.0.0 (2024-01-25)
 
 
